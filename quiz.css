@@ -1,0 +1,128 @@
+body{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+.back-image {
+    background-image: url(img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ul-nav-tabs {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.ul-nav-tabs li {
+    display: inline-block;
+    padding: 1vw;
+    font-size: 1.9vw;
+}
+
+.ul-nav-tabs a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.ul-nav-tabs a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.color-change{
+    color: #f5bb00;
+}
+
+.main-header {
+    background-color: black;
+    width: 100%;
+    height: 6.5vw;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    align-content: center;
+    margin: 0 0;
+}
+
+.main-Title {
+    text-align: center;
+    margin: 0;
+    font-family: Times New Roman;
+    color: white;
+    font-size: 8em;
+    padding-bottom: 1vw; 
+}
+
+.main-header h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 3em;
+    text-align: left;
+}
+
+#quiz {
+	margin-right: auto;
+	margin-left: 300px;
+    background-color: darkgrey;
+	padding: 10px 20px 20px 20px;
+	width: 800px;
+	border-radius: 20px;
+	float:left;
+	display: block; }
+
+#button {
+        background: black;
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+        color:white;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 630px; }
+
+.correct { 
+    color:green;
+    font-weight:bold;
+}
+
+.incorrect { 
+     color:red; 
+     font-weight:bold;
+}
+
+
+
+.ans-container {
+    display: none;
+    background-color: darkgrey;
+    padding: 10px 20px 20px 20px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+#quiz-time-left {
+    color: black;
+    text-align: center;
+}

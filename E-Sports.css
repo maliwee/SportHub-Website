@@ -1,0 +1,82 @@
+.ul-nav-tabs {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.ul-nav-tabs li {
+    display: inline-block;
+    padding: 1vw;
+    font-size: 1.9vw;
+}
+
+.ul-nav-tabs a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul-nav-tabs ul ul{
+    display: none;
+}
+.ul-nav-tabs ul li:hover > ul{
+    display: block;
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.ul-nav-tabs a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.color-change{
+    color: #f5bb00;
+}
+
+.main-header {
+    background-color: black;
+    width: 100%;
+    height: 6.5vw;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+}
+
+.main-Title {
+    text-align: center;
+    margin: 0;
+    font-family: Times New Roman;
+    color: white;
+    font-size: 8em;
+    padding-bottom: 1vw; 
+}
+
+.main-header h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 3em;
+}
+    .main-image{
+        padding-left: 140px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    .text{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+            
+    }
+    .footer{
+        height: 50px;
+        padding-top: 20px;
+        background-color: black;
+    }

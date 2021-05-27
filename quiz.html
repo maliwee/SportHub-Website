@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportHUB | QUIZ</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script type="text/javascript" src="quiz.js"></script>
+   
+</head>
+<body class="back-image">
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="ul-nav-tabs">
+                <li><a href="HTML%20File%20(1).html">HOME</a></li>
+                <li><a href="Tennis.html">NEWS</a></li>
+                <li><a href="EStore.html">STORE</a></li>
+                <li><a href="quiz.html">QUIZ</a></li>
+                <li><a href="team.html">MEMBERS</a></li>
+                
+            </ul>
+        </nav>
+        <h1 class="Main-Title" id="mainTitle">Sport<span class="color-change">HUB</span> - Quiz</h1>
+    </header>
+
+    <div id="quiz-time-left"></div>
+
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. In which city the 2028 Summer Olympic Games will be organized?</p>
+            <p><input type="radio" name="question1" value="Amsterdam">1)  Amsterdam</p>
+            <p><input type="radio" name="question1" value="Tokyo">2) Tokyo</p>
+            <p><input type="radio" name="question1" value="Paris">3)  Paris</p>
+            <p><input type="radio" name="question1" value="Los Angeles">4)  Los Angeles</p>
+        </div>
+
+        <div>
+            <p>2. The headquarters of IAAF is situated in?</p>
+            <p><input type="radio" name="question2" value="South Africa">1)  South Africa</p>
+            <p><input type="radio" name="question2" value="Germany">2)  Germany</p>
+            <p><input type="radio" name="question2" value="Switzerland">3)  Switzerland</p>
+            <p><input type="radio" name="question2" value="Monaco">4)  Monaco</p>
+        </div>
+
+        <div>
+            <p>3. How many points did Liverpool record in the 2019/20 Premier League season before football was postponed?</p>
+            <p><input type="radio" name="question3" value="45">1)  45</p>
+            <p><input type="radio" name="question3" value="82">2)  82</p>
+            <p><input type="radio" name="question3" value="50">3)  50</p>
+            <p><input type="radio" name="question3" value="68">4)  68</p>
+        </div>
+
+        <div>
+            <p>4. Who is the Premier League’s all-time top scorer?</p>
+            <p><input type="radio" name="question4" value="Alan Shearer">1)  Alan Shearer</p>
+            <p><input type="radio" name="question4" value="Cristiano Ronaldo">2)  Cristiano Ronaldo</p>
+            <p><input type="radio" name="question4" value="Lionel Messi">3)  Lionel Messi</p>
+            <p><input type="radio" name="question4" value="David Beckham">4)  David Beckham</p>
+        </div>
+
+        <div>
+            <p>5. Who has won more grand slam tennis titles?</p>
+            <p><input type="radio" name="question5" value="Dominic Thiem">1)  Dominic Thiem</p>
+            <p><input type="radio" name="question5" value="Rafael Nadal">2)  Rafael Nadal</p>
+            <p><input type="radio" name="question5" value="Serena Williams">3)  Serena Williams</p>
+            <p><input type="radio" name="question5" value="Roger Federer">4)  Roger Federer</p>
+        </div>
+
+        <div>
+            <p>6. Which country won the ICC Champions Trophy 2017?</p>
+            <p><input type="radio" name="question6" value="India">1)  India</p>
+            <p><input type="radio" name="question6" value="Pakistan">2)  Pakistan</p>
+            <p><input type="radio" name="question6" value="Sri Lanka">3)  Sri Lanka</p>
+            <p><input type="radio" name="question6" value="England">4)  England</p>
+        </div>
+
+        <div>
+            <p>7. Which England footballer was famously never given a yellow card?</p>
+            <p><input type="radio" name="question7" value="Gary Lineker">1)  Gary Lineker</p>
+            <p><input type="radio" name="question7" value="David Beckham">2)  David Beckham</p>
+            <p><input type="radio" name="question7" value="Gary Neville">3)  Gary Neville</p>
+            <p><input type="radio" name="question7" value="Raheem Sterling">4)  Raheem Sterling</p>
+        </div>
+
+        <div>
+            <p>8. Which was the 1st non Test Cricket playing country to beat India in an international match?</p>
+            <p><input type="radio" name="question8" value="Zimbabwe">1)  Zimbabwe</p>
+            <p><input type="radio" name="question8" value="Sri Lanka">2)  Sri Lanka</p>
+            <p><input type="radio" name="question8" value="New Zealand">3)  New Zealand</p>
+            <p><input type="radio" name="question8" value="Australia">4)  Australia</p>
+        </div>
+
+        <div>
+            <p>9. Track and field star Carl Lewis won how many gold medals at the 1984 Olympic games?</p>
+            <p><input type="radio" name="question9" value="Six">1)  Six</p>
+            <p><input type="radio" name="question9" value="Five">2)  Five</p>
+            <p><input type="radio" name="question9" value="Four">3)  Four</p>
+            <p><input type="radio" name="question9" value="Eight">4)  Eight</p>
+        </div>
+
+        <div>
+            <p>10. How long are professional Golf Tour players allotted per shot?</p>
+            <p><input type="radio" name="question10" value="45 seconds">1)  45 seconds</p>
+            <p><input type="radio" name="question10" value="2 minutes">2)  2 minutes</p>
+            <p><input type="radio" name="question10" value="25 seconds">3)  25 seconds</p>
+            <p><input type="radio" name="question10" value="1 minute">4)  1 minute</p>
+        </div>
+
+        <div>
+            <input type="button" value="I am done !" id="button" onclick="check()">
+        </div>
+    </form>
+
+    <div class="ans-container">
+        <div id="answers">
+            <p>1. In which city the 2028 Summer Olympic Games will be organized?<span id="q1Ans"></span></p>
+            <p>2. The headquarters of IAAF is situated in?<span id="q2Ans"></span></p>
+            <p>3. How many points did Liverpool record in the 2019/20 Premier League season before football was postponed?<span id="q3Ans"></span></p>
+            <p>4. Who is the Premier League’s all-time top scorer?<span id="q4Ans"></span></p>
+            <p>5. Who has won more grand slam tennis titles?<span id="q5Ans"></span></p>
+            <p>6. Which country won the ICC Champions Trophy 2017?<span id="q6Ans"></span></p>
+            <p>7. Which England footballer was famously never given a yellow card?<span id="q7Ans"></span></p>
+            <p>8. Which was the 1st non Test Cricket playing country to beat India in an international match?<span id="q8Ans"></span></p>
+            <p>9. Track and field star Carl Lewis won how many gold medals at the 1984 Olympic games?<span id="q9Ans"></span></p>
+            <p>10. How long are professional Golf Tour players allotted per shot?<span id="q10Ans"></span></p>
+    
+            <h3>Your Score is: <span id="score"></span></h3>
+            <h3>You Used: <span id="time"></span></h3>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+</body>
+</html>

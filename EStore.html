@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SportHUB | OnlineStore</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="Estore.css" />
+        <script src="EStore.js" async>
+            function fontinc() {
+                document.getElementById('body').style.fontSize = '30px';
+            }
+        
+        </script>
+    </head>
+    <body id="body">
+        <header class="main-header">
+            <nav class="main-nav">
+                <ul class="ul-nav-tabs">
+                    <li><a href="HTML%20File%20(1).html">HOME</a></li>
+                    <li><a href="E-sports.html">NEWS</a></li>
+                    <li><a href="EStore.html">STORE</a></li>
+                    <li><a href="quiz.html">QUIZ</a></li>
+                    <li><a href="team.html">MEMBERS</a></li>
+                    
+                </ul>
+            </nav>
+            <h1 class="Main-Title" id="mainTitle">Sport<span class="color-change">HUB</span> - Online</h1>
+        </header>
+        <button class="fontincrease" type="button" onclick="fontinc()">+ Size</button>
+        <section class="container">
+            <div class="discount_view">
+            <div class="mySlides fade">      
+                <img src="img/slide1.jpg" width="1000px" height="400px" alt="First Slide">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/slide2.jpg" width="1000px" height="400px" alt="Second Slide">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/slide3.jpg" width="1000px" height="400px" alt="Third Slide">
+            </div>
+            
+            <script type="application/javascript">
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 4000); // Change image every 2 seconds
+                }
+            </script>
+            </div>
+            <h2 class="container-Header"><strong>Badminton Accessories</strong></h2>
+            <div class="sell-items">
+                <div class="sell-item">
+                    <span class="item-title">Badminton Racket</span>
+                    <img class="item-image" src="img/badminton-racket.jpg" alt="Badminton racket">
+                    <div class="item-details">
+                        <span class="item-price">$12.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Badminton ShuttleCock</span>
+                    <img class="item-image" src="img/badminton-shuttlecock.jpg" alt="Badminton Shuttlecock">
+                    <div class="item-details">
+                        <span class="item-price">$14.99</span>
+                        <button class="shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Badminton Shoes</span>
+                    <img class="item-image" src="img/badminton-shoes.jpeg" alt="Badminton Shoes">
+                    <div class="item-details">
+                        <span class="item-price">$9.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Badminton Bags</span>
+                    <img class="item-image" src="img/badminton-bag.jpg" alt="Badminton Bag">
+                    <div class="item-details">
+                        <span class="item-price">$19.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="container-Header"><strong>Cricket Accessories</strong></h2>
+            <div class="sell-items">
+                <div class="sell-item">
+                    <span class="item-title">Cricket Bats</span>
+                    <img class="item-image" src="img/cricket-bat.jpg" alt="Cricket Bat">
+                    <div class="item-details">
+                        <span class="item-price">$12.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Cricket Leather Balls</span>
+                    <img class="item-image" src="img/cricket-ball.jpg" alt="Cricket Leather Ball">
+                    <div class="item-details">
+                        <span class="item-price">$14.99</span>
+                        <button class="shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Cricket HeadGear</span>
+                    <img class="item-image" src="img/cricket-helmet.jpg" alt="Cricket HeadGear">
+                    <div class="item-details">
+                        <span class="item-price">$9.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">Cricket Gloves</span>
+                    <img class="item-image" src="img/crickekt-gloves.jpg" alt="Cricket Gloves">
+                    <div class="item-details">
+                        <span class="item-price">$19.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="container-Header"><strong>FootBall Accessories</strong></h2>
+            <div class="sell-items">
+                <div class="sell-item">
+                    <span class="item-title">FootBall Gloves</span>
+                    <img class="item-image" src="img/football-glovs.jpg" alt="Football Gloves">
+                    <div class="item-details">
+                        <span class="item-price">$12.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">FootBall Sport Shoes</span>
+                    <img class="item-image" src="img/football-shoes.jpg" alt="Football Shoes">
+                    <div class="item-details">
+                        <span class="item-price">$14.99</span>
+                        <button class="shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">FootBalls</span>
+                    <img class="item-image" src="img/football.jpg" alt="Soccer Ball">
+                    <div class="item-details">
+                        <span class="item-price">$9.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sell-item">
+                    <span class="item-title">FootBall Wears</span>
+                    <img class="item-image" src="img/football-wear.jpg" alt="FootBall Wear">
+                    <div class="item-details">
+                        <span class="item-price">$19.99</span>
+                        <button class="shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="container-Header-cart">CART ADDED ITEMS</h2>
+            <div class="detail-user-table">
+                <form>
+                    <table>
+                        <tr>
+                            <td>Customer Name : </td><td><input type="text" id="customer-name"/></td>
+                        </tr>
+                        <tr>
+                            <td>Customer Email : </td><td><input type="text" id="customer-email"/></td>
+                        </tr>
+                        <tr>
+                            <td>Customer Credit Card Number : </td><td><input type="text" id="customer-creditcard"/></td>
+                        </tr>
+                        <tr>
+                            <td>Customer Mobile Number : </td><td><input type="text" id="customer-mobileno"/></td>
+                        </tr>
+                    </table>
+                </form>    
+            </div>
+            <div class="cart-row">
+                <span class="cart-item">ITEM</span>
+                <span class="cart-price">PRICE</span>
+                <span class="cart-quantity">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-result-title">Total</strong>
+                <span class="cart-result-price">$0</span>
+            </div>
+            <button class="button-placeOrder" type="button">PLACE ORDER</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container-footer">
+                <span><h1 class="footer-title">SportsHub</h1></span>
+                <span><a href="page_Editor.html"><button type="button" class="page-Editor">Page Editor</button></a></span>
+                <span><a href="#mainTitle"><button type="button" class="page-Editor">Go To Top</button></a></span>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.slider-load{
+	animation: slide 2s;
+}
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 60vw;
+	animation: slide 40s infinite;
+	position: relative;
+}
+.slider-content{
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.slider-principle{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.slider-principle h1{
+	font-size: 7.5vw;
+	margin-bottom: 0.7vw;
+	margin-top: 3vw;
+	text-align: center;
+}
+.slider-principle p{
+	font-size: 1.5vw;
+	margin-top: 2vw;
+}
+.bannerhighlight{
+	color: #f5bb00;
+}
+.changer::before{
+	animation: change infinite 40s;
+	content: "";
+}
+.changer{
+	color: white;
+	font-size: 2.5vw;
+	font-family: poppins;
+	text-decoration: bold;
+	cursor: pointer;
+}
+.changer:hover{
+	border: 1px solid #f5bb00;
+	border-radius: 50px;
+	color: #f5bb00;	
+	padding: 1vw;
+}
+.main{
+	font-family: poppins;
+	color: #f5bb00;
+}
+.newsletter:hover{
+	color: #55B6FC;
+}
+.menu{
+	background: rgba(0, 0, 0, 0.2);
+	width: 100vw;
+	height: 6.5vw;
+}
+.leftmenu{
+	float: left;
+	width: 15vw;
+	line-height: 6.5vw;
+	padding-left: 1vw;
+}
+.rightmenu{
+	float: right;
+	margin-right: 20px;
+}
+.rightmenu ul{
+	list-style: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.rightmenu ul li{
+	display: inline-block;
+	padding: 1vw;
+	font-size: 1.9vw;
+    position: relative;
+}
+.rightmenu ul ul{
+    display: none;
+}
+.rightmenu ul li:hover > ul{
+    display: block;
+}
+.logo-design{
+	font-size: 3vw;
+	color: #f5bb00;
+}
+h3{
+	font-size: 3vw;
+	font-family: poppins;
+}
+.service:hover{
+	color: #f5bb00;
+}
+.about:hover{
+	color: #f5bb00;
+}
+
+.newsletter:hover .student-menu{
+	color: #55B6FC;
+	display: block;
+}
+
+
+
+
+@keyframes slide{
+	0%{
+		background-image: url("img/image1.png");
+	}
+	20%{
+		background-image: url("img/image1.png");
+	}
+	20.01%{
+		background-image: url("img/image2.png");
+	}
+	40%{
+		background-image: url("img/image2.png");
+	}
+	40.01%{
+		background-image: url("img/image3.png");
+	}
+	60%{
+		background-image: url("img/image3.png");
+	}
+	60.01%{
+		background-image: url("img/image4.png");
+	}
+	80%{
+		background-image: url("img/image4.png");
+	}
+	80.01%{
+		background-image: url("img/image5.png");
+	}
+	100%{
+		background-image: url("img/image5.png");
+	}
+}
+
+@keyframes change{
+	0%{
+		content: "Premium Classic Shoes";
+	}
+	20%{
+		content: "Premium Classic Shoes";
+	}
+	20.01%{
+		content: "New Sports Collection";
+	}
+	40%{
+		content: "New Sports Collection";
+	}
+	40.01%{
+		content: "Latest Sweatshirts";
+	}
+	60%{
+		content: "Latest Sweatshirts";
+	}
+	60.01%{
+		content: "Branded Sport Items";
+	}
+	80%{
+		content: "Branded Sport Items";
+	}
+	80.01%{
+		content: "Flash Deals";
+	}
+	100%{
+		content: "Flash Deals";
+	}
+}
+
+
+
+
+
+
+.videobar{
+	overflow: hidden;
+	position: absolute;
+}
+.vidtext{
+	position: absolute;
+	font-size: 4vw;
+	text-align: center;
+	top: 45vw;
+	left: 35vw;
+	right: 35vw;
+	color: white;
+	border: 0.4vw solid white;
+	border-radius: 60px;
+	background: rgba(255, 255, 255, 0.2);
+	font-family: montserrat;
+	transition: 0.5s;
+}
+.vidbg{
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vw;
+}
+.vidtext:hover{
+	background: #f5bb00;
+	border: 0.4vw solid #f5bb00;
+}
+
+
+
+
+
+/*CSS part of poupu window*/
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container h1{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 48px;
+	text-align: center;
+	font-size: 30px;
+}
+.btn{
+	background: #fff;
+	padding: 10px 15px;
+	color: black;
+	font-weight: bolder;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 25px;
+	text-decoration: none;
+	transition: background 0.4s ease;
+}
+.btn:hover{
+	background: #343434;
+	color: white;
+}
+.popup{
+	background: rgba(0,0,0,0.2);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.popup-content{
+	height: 250px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+}
+input{
+	margin: 10px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid grey;
+}
+img{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.comment{
+	width: 50%;
+	height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
